@@ -46,13 +46,13 @@ chekout
 
 ## Issues
 
-If you come across permission issues on Moc or Linux, run the following command in your terminal:
+If you come across permission issues when you run the `chekout` command on Mac or Linux, run the following command in your terminal:
 
 ```bash
 chmod +x ./dist/index.js
 ```
 
-if you come across permission issues on Windows, run the following command in powershell(as admin):
+if you come across permission issues when you run the `chekout` command on Windows, run the following command in powershell(as admin):
 
 ```bash
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
@@ -68,6 +68,8 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ## Example
 
+If you want to buy a token, the following questions will abe asked:
+
 ```bash
 $ chekout
 Welcome to ChekOut
@@ -77,8 +79,8 @@ Choose an action:
 Choose the DEX to use when swapping your tokens:
   1. Uniswap V2
   2. Uniswap V3
-Enter the address of the token you'll like to buy?
-Enter the amount of ETH you'll like to swap?
+Enter the address of the token you will like to buy?
+Enter the amount of ETH you will like to swap?
 ```
 
 ## Contributing
